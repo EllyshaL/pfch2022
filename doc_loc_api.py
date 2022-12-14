@@ -1,5 +1,7 @@
 import requests
 import json
+import csv
+
 base_url = "https://www.loc.gov/film-and-videos/?q=feminist&fo=json"
 payload = {
  'q' : 'feminist', 'feminism'
